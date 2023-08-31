@@ -1,37 +1,33 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'; // Make sure to import NavLink from the correct location
 
-const CustomCard = () => {
-  const cardStyle = {
-    width: '250px',
-    height: '250px',
-    border: '15px solid blue',
-    backgroundColor: 'white',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    fontSize: '24px',
-    margin : '0 auto'
-  };
+const cardStyle = {
+  width: '250px',
+  height: '250px',
+  border: '15px solid blue',
+  backgroundColor: 'white',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  fontSize: '24px',
+  margin : '0 auto'
+};
 
+export default function OECard({oe}) {
+  
   return (
 
     <div>
     <div style={cardStyle}>
-      <NavLink to="1/courses" style={{ textDecoration: 'none', color: 'black' }}>
-        OE1
-      </NavLink>
-    </div>
-    <div style={cardStyle}>
-    <NavLink to="/your-link-here" style={{ textDecoration: 'none', color: 'black' }}>
-      OE2
+    <NavLink to={oe.id} style={{ textDecoration: 'none', color: 'black' }}>
+      {oe.title}
     </NavLink>
   </div>
   </div>
   );
 };
 
-export default CustomCard;
+// export default CustomCard;
 
 
 
