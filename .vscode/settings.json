@@ -1,0 +1,8 @@
+{
+    "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+    "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+    "debug.javascript.autoAttachFilter": "smart",
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "npm.exclude": "",
+    "vsintellicode.features.python.deepLearning": "enabled"
+}

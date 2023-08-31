@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Appbar button{
+  display: flex;
+}
+.root-layout{
+  width: 100%;
+}
+.root-layout-div{
+  display: flex;
+  justify-content: end;
+
+}
+
+.staff-layout{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  margin-left: 16px;
+}
